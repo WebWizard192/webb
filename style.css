@@ -1,0 +1,144 @@
+.header{
+	background-color: #cccccccc;
+	background-repeat: no-repeat;
+	height: 160px;
+	width: 965px;
+	background-size: cover;	
+	align-items: center;	
+}
+.title{
+	color: #fff;
+	font-weight: 700;
+	font-size: 130px;
+	margin-left: 180px;
+	margin-top: -137px;
+}
+.title span{
+	color: #333;
+}
+.header-line{
+	background-image: url('bc.jpg');
+	background-repeat: no-repeat;
+	height: 3120px;
+	width: 100%;
+	background-size: cover;	
+	align-items: center;	
+}
+.title-text{
+	font-size: 63px;
+	font-weight: 700;
+	color: #fff;
+	margin-left: 84px;
+}
+.img1{
+    margin-left: 137px;
+    height: 3587px;
+    margin-top: -791px;
+    width: 100%;
+}
+
+.iconki{
+    height: 554px;
+    margin-top: 19px;
+    margin-left: -9px;
+}
+.text-icon{
+    font-size: 55px;
+    margin-top: -396px;
+    margin-left: 256px;
+    font-weight: 600;
+}
+.text-icon1{
+    font-size: 55px;
+    margin-top: 125px;
+    margin-left: 252px;
+    font-weight: 600;
+}
+.btn{
+    height: 120px;
+    margin-top: 195px;
+    margin-left: 84px;
+}
+#menu-toggle {
+  display: none;
+}
+
+.menu-btn {
+  padding: 10px 20px;
+  color: #999;
+  cursor: pointer;
+  font-size: 100px;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-btn {
+  padding: 10px 20px;
+  color: #999;
+  cursor: pointer;
+  padding: 20px 20px; /* увеличиваем вертикальный отступ */
+}
+
+#menu {
+  position: fixed;
+  top: 0;
+  right: -500px;
+  width: 500px;
+  height: 100%;
+  background-color: #f4f4f4;
+  transition: right 0.3s ease;
+}
+
+#menu-toggle:checked + .menu-btn + #menu {
+  right: 0;
+}
+
+#content {
+  transition: margin-right 0.3s ease;
+}
+
+#menu-toggle:checked ~ #content {
+  margin-right: 250px;
+}
+
+#menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+#menu ul li {
+  margin-bottom: 10px;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  color: #333;
+}
+.bbb1{
+	font-size: 80px;
+	margin-left: 20px;
+}
+.baba{
+    margin-left: 14%;
+    height: 615px;
+    margin-top: 8%;
+}
+.text-rem{
+  font-size: 60px;
+  margin-top: -2647px;
+  margin-left: 245px;
+  font-weight: 400;
+}
+.phototext{
+    height: 30%;
+    width: 87%;
+    margin-left: 13%;
+    margin-top: 10%;
+}
+
+
+
+
+
